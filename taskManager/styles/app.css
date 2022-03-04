@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h1{color:white;
+    text-align:center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+div {
+    overflow: hidden;
+    background-color: rgb(238, 238, 235);
+}
+#tasks-list{
+    color:black;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    padding:20px;
+    font-size: 17px;
+}
+#searchIcon{
+    position: relative;
+    left:200px; 
+
+}
+
+main{
+    display: flex;
+    background-color: black;
+    border: 3px solid #fff;
+    padding: 20px;
+    
+}
+
+section{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid #f44336;
+}
+
+#savbtn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+}
+#iconImportant{
+    font-size: 20px;
+    color:navy;
+    cursor: pointer;
+}
+#iconImportant.fas{
+    color: red;
+}
+.headerList{
+    background-color: #f44336;
+    opacity: 0.7;
+    text-align: center;
+}
+.btn-sm{
+    padding: 10px;
+}
+
+ul{
+    margin: 10;
+    padding: 0;
+    display: inline-flexbox;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+ul li:hover {
+    background: #ddd;
+}
+
+
